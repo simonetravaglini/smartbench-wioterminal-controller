@@ -569,6 +569,7 @@ void calcolaSequenzaFingerJoint() {
 void doJointStart() {
   delay(1000);
   // 1) Calcoliamo la sequenza di tagli
+  int  currentPosition  = 0;
   calcolaSequenzaFingerJoint();
 
   // 2) Se la lista è vuota, mostriamo un messaggio e torniamo
